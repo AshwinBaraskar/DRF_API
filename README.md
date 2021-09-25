@@ -1,7 +1,8 @@
 #Client API with containing get, post put and delete
 
-List of all clients
-
+    List of all clients
+### use this:
+### http://127.0.0.1:8000/client/
 
 GET /clients/
 
@@ -39,9 +40,9 @@ GET /clients/
 
     Create a new client
 
-POST /clients/
-
- 
+##POST /clients/
+## http://127.0.0.1:8000/client/
+## add the details 
 
 Input = {
 
@@ -67,7 +68,8 @@ Output = {
 
 ------------------------------------------------------------
 
- 
+### use this:
+### http://127.0.0.1:8000/client/2/ 
 
     Retrieve info of a client along with projects assigned to its users
 
@@ -104,7 +106,9 @@ GET /clients/:id
  
 
 ------------------------------------------------------------
-
+### use this:
+### http://127.0.0.1:8000/client/2/ 
+update
  
 
     Update info of a client
@@ -138,7 +142,9 @@ Output = {
  
 
 ------------------------------------------------------------
-
+### use this:
+### http://127.0.0.1:8000/client/2/ 
+delete
  
 
     DELETE /clients/:id
