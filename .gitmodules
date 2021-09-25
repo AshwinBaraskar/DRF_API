@@ -1,0 +1,3 @@
+[submodule "Client API/MyAPI"]
+	path = Client API/MyAPI
+	url = ../MyAPI.git
