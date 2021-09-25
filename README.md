@@ -1,5 +1,6 @@
 #Client API with containing get, post put and delete
 
+Use---> pip install -r req.txt
 List of all clients
 
 
